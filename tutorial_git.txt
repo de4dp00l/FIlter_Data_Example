@@ -43,3 +43,8 @@ copy isi id_rsa.pub > buka github > settings > pilih menu "SSH and GPG keys" > p
 git clone git@github.com:de4dp00l/specific-column-value.git
 - contoh ingin menambahkan new_origin sebagai ssh
 git add remote new_origin git@github.com:de4dp00l/specific-column-value.git
+
+13. Pull dari specific branch
+git clone --branch {nama_branch} {repo_url}
+atau
+git clone -b {nama_branch} {repo_url}

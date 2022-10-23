@@ -31,3 +31,9 @@ git push -u origin main
 10. Ingin menghapus branch remote? bisa dengan cara
 git push -d {nama_origin} {nama_branch}
 contoh = git push -d origin master
+
+11. ssh menggunakan git
+- contoh ingin melakukan clone repo di github
+git clone git@github.com:de4dp00l/specific-column-value.git
+- contoh ingin menambahkan origin sebagai ssh
+git add remote origin git@github.com:de4dp00l/specific-column-value.git

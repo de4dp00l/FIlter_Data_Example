@@ -32,8 +32,14 @@ git push -u origin main
 git push -d {nama_origin} {nama_branch}
 contoh = git push -d origin master
 
-11. ssh menggunakan git
+11. Setup ssh key git
+cd ~/.ssh
+ssh-keygen -o -t  rsa -C "{youremail@yahoo.com}"
+cat id_rsa.pub
+copy isi id_rsa.pub > buka github > settings > pilih menu "SSH and GPG keys" > pilih new ssh key > masukan title > paste isi id_rsa.pub pada bagian "key"
+
+12. ssh menggunakan git
 - contoh ingin melakukan clone repo di github
 git clone git@github.com:de4dp00l/specific-column-value.git
-- contoh ingin menambahkan origin sebagai ssh
-git add remote origin git@github.com:de4dp00l/specific-column-value.git
+- contoh ingin menambahkan new_origin sebagai ssh
+git add remote new_origin git@github.com:de4dp00l/specific-column-value.git

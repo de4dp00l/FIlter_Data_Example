@@ -1,0 +1,28 @@
+1. setup git config
+git config --global user.email "youremail@yahoo.com"
+git config --global user.name "yourusername"
+
+2. Pergi ke directory yg akan di push
+cd C:\Users\Seliando\{nama_folder}\
+
+3. Buat repository local
+git init .
+
+4. Buat repository online di dalam github
+
+5. Check status pada git
+git status
+
+6. Jika diminta menambahkan file, bisa dengan cara
+git add {nama_file}
+
+7. Buat branch baru bernama main dan pindah ke branch tersebut
+git branch main
+git checkout main
+
+8. Lakukan commit
+git commit -m "Ini pertama kali commit"
+
+9. Untuk push ke repo github, tambahan remote origin dan pilih branch main
+git remote add origin https://github.com/{yourusername}/{reponame.git}
+git push -u origin main

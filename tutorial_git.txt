@@ -26,3 +26,8 @@ git commit -m "Ini pertama kali commit"
 9. Untuk push ke repo github, tambahan remote origin dan pilih branch main
 git remote add origin https://github.com/{yourusername}/{reponame.git}
 git push -u origin main
+
+
+10. Ingin menghapus branch remote? bisa dengan cara
+git push -d {nama_origin} {nama_branch}
+contoh = git push -d origin master

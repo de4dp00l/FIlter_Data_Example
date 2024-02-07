@@ -3,7 +3,7 @@ git config --global user.email "youremail@yahoo.com"
 git config --global user.name "yourusername"
 
 2. Pergi ke directory yg akan di push
-cd C:\Users\Seliando\{nama_folder}\
+cd C:\Users\user\{nama_folder}\
 
 3. Buat repository local
 git init .
